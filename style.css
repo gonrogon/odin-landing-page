@@ -1,9 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #1f2937;
     font-family: Roboto, sans-serif;
     color: #f9faf8;
     margin: 0;
     padding: 0;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.nav .content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 22px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav .logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav .logo:hover {
+    text-decoration: none;
 }
 
 .info {

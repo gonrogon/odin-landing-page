@@ -8,13 +8,16 @@ body {
     padding: 0;
 }
 
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .nav {
     padding: 20px 0;
 }
 
 .nav .content {
-    max-width: 1200px;
-    margin: auto;
     display: flex;
     gap: 22px;
 }

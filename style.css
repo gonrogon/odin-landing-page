@@ -138,6 +138,32 @@ body {
 .quote {
     background-color: #e4e6ea;
     color: #1f2937;
+    padding: 120px 0;
+}
+
+.quote .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote p {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote p.author {
+    width: 100%;
+    max-width: 800px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
 }
 
 .call {

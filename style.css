@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -39,6 +39,44 @@ body {
 
 .nav .logo:hover {
     text-decoration: none;
+}
+
+.header .content {
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.header h1 {
+    margin: 12px 0;
+    font-size: 49px;
+    font-weight: 900;
+}
+
+.header h2 {
+    margin: 12px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+.header .signup {
+    display: inline-block;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header .signup:hover {
+    background-color: #aaa;
+}
+
+.header img {
+    border-radius: 10px;
 }
 
 .info {

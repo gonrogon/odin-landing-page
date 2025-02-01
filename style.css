@@ -84,6 +84,42 @@ body {
     color: #1f2937
 }
 
+.info .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.info .carrousel {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info .illustration {
+    width: 180px;
+}
+
+.info .illustration img {
+    box-sizing: border-box;
+    width: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info .illustration .subtext {
+    text-align: center;
+    color: #636a75;
+}
+
 .quote {
     background-color: #e4e6ea;
     color: #1f2937;

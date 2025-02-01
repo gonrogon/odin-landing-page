@@ -41,10 +41,29 @@ body {
     text-decoration: none;
 }
 
+.header {
+    padding: 100px 0;
+}
+
 .header .content {
     display: flex;
     gap: 20px;
-    padding: 100px 0;
+}
+
+.header .title {
+    width: 50%;
+}
+
+.header .image {
+    width: 50%;
+    max-width: 530px;
+    max-height: 240px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .header h1 {
@@ -73,10 +92,6 @@ body {
 
 .header .signup:hover {
     background-color: #aaa;
-}
-
-.header img {
-    border-radius: 10px;
 }
 
 .info {

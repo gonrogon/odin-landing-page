@@ -213,3 +213,11 @@ body {
 .call a:hover {
     background-color: #aaa;
 }
+
+.footer p {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #e4e6ea;
+}
